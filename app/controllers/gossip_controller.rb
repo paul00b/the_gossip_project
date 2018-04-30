@@ -29,9 +29,9 @@ class GossipController < ApplicationController
   end
 
   def destroy
-    @gossip = Gossip.find_by(id: params[:id])
+    @gossip = Gossip.find_by(params[:id])
     @gossip.destroy
-    redirect_to gossips_path
+    redirect_to all_path
   end
 
 

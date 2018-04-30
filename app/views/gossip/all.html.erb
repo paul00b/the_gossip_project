@@ -9,8 +9,14 @@
     <tbody>
   <% @gossip.each do |gossip| %>
 
+
         <tr>
-          <td><%= gossip.content %> <br><br> </td>
+          <td>
+          <h5><a href="gossip/<%= gossip.id %>" > <%= gossip.content %> </a><a href="<%= destroy_path %>" class="btn btn-danger btn-sm" data-method="DELETE">X</a>
+</h5>
+          <br>
+
+        </td>
         </tr>
   <% end %>
   </tbody>
