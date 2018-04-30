@@ -1,6 +1,7 @@
 <%= render 'layouts/navbar'%>
 <div class="conteneur">
-<form action="<%=gossip_create_path%>" method= "POST" >
+  <h2> Edition de votre gossip : </h2>
+<form action="<%=modify_path%>" method= "POST" >
   <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
   <div class="form-group">
     <label for="name">Pseudo:</label>

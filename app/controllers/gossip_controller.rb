@@ -12,4 +12,19 @@ class GossipController < ApplicationController
   def show
     @gossip = Gossip.find_by(id: params[:id])
   end
+
+  def edit
+  end
+
+  def modify
+    @gossip = Gossip.find_by(id: params[:id])
+    @gossip.anonymous_author = params[:name]
+    @gossip.content = params[:content]
+    @gossip.save
+    redirect_to @gossip
+  end
+
+  def all
+    @gossip = Gossip.all
+  end
 end

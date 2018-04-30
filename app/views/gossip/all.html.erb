@@ -1,0 +1,18 @@
+<%= render 'layouts/navbar'%>
+<div class="conteneur">
+  <h1>Index des Gossips, oh yeah</h1>
+  <p></p>
+  <table class="conteneur">
+    <thead> <tr>
+             <th></th>
+         </tr></thead>
+    <tbody>
+  <% @gossip.each do |gossip| %>
+
+        <tr>
+          <td><%= gossip.content %> <br><br> </td>
+        </tr>
+  <% end %>
+  </tbody>
+  </table>
+</div>
