@@ -8,6 +8,8 @@ There you go, listen to some Curtis Mayfield to soflty wake you up :
 ## Disclamer :
 Alors oui, j'ai pas mis le lien github pour la première application, movie_database. Mais franchement, <a href="https://movie-database-v2.herokuapp.com/">allez checker par vous même</a> : ça marche, et si j'ai réussi à aller aussi loin dans <b>The gossip project </b> c'est que c'est bon, nan ?
 
+EDIT : Bon aller finalement je l'ai fait, c'est par <a href="https://github.com/paul00b/the_movie_database">ici pour the movie database</a>
+
 ## What have i done ?
 1. Vous pouvez retrouver <a href="https://movie-database-v2.herokuapp.com/">la movie database ici </a>, en production
 2. "The gossip project" <a href="https://vast-woodland-37676.herokuapp.com/"> se trouve ici en production </a>
