@@ -2,7 +2,7 @@
 <div class="conteneur">
 <h1>Votre gossip :</h1>
 <p>  <%= @gossip.content %> </p></br>
-<p> Par <% @gossip.anonymous_author %></p> </br>
+
 <a href="<%= gossip_edit_path%>"><button type="button" class="btn btn-info" >Edit </button></a> &nbsp
 <a href="<%= gossip_new_path%>"><button type="button" class="btn btn-primary">Create </button></a>
 <a href="<%= all_path%>"><button type="button" class="btn btn-warning">All the gossips</button></a> &nbsp
