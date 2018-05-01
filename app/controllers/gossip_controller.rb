@@ -3,9 +3,10 @@ class GossipController < ApplicationController
   end
   def create
     @gossip = Gossip.new
-    @gossip.anonymous_author = params[:name]
+    @gossip.anonymous_author = params[:username]
     @gossip.content = params[:content]
     @gossip.save
+    puts params
     redirect_to @gossip
   end
 
@@ -18,7 +19,7 @@ class GossipController < ApplicationController
 
   def modify
     @gossip = Gossip.find_by(id: params[:id])
-    @gossip.anonymous_author = params[:name]
+    @gossip.anonymous_author = params[:username]
     @gossip.content = params[:content]
     @gossip.save
     redirect_to @gossip
