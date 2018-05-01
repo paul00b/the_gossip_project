@@ -2,8 +2,8 @@
 
 Project The_gossip_project with THP by Paul Broussolle aka <a href="https://www.youtube.com/watch?v=SSK2SrPU5hs&lc=z12ef5qpowijv1y4t04chvdrisenerehqb0">the minister of mixture</a>
 
-There you go, listen to some Curtis Mayfield to wake you up :
-<iframe width="854" height="480" src="https://www.youtube.com/embed/6Z66wVo7uNw?rel=0&autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+There you go, listen to some Curtis Mayfield to soflty wake you up :
+<a href="https://www.youtube.com/embed/6Z66wVo7uNw">MOVE ON UP BABE</a>
 
 ## Disclamer :
 Alors oui, j'ai pas mis le lien github pour la première application, movie_database. Mais franchement, <a href="https://movie-database-v2.herokuapp.com/">allez checker par vous même</a> : ça marche, et si j'ai réussi à aller aussi loin dans <b>The gossip project </b> c'est que c'est bon, nan ?
